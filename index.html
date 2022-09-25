@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTJUNKS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Caslon+Display&display=swap"
+        rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/col.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar__logo">
+                    <h1>ARTJUNKS</h1>
+                </div>
+                <div class="nav__links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Get started</a></li>
+                    </ul>
+                </div>
+                <div class="menu__bars">
+                    <i class='bx bx-menu' id="menu-btn"></i>
+                </div>
+            </div>
+            <d1iv class="content">
+                <div class="content__box">
+                    <h1>Hi! I'm Eldor</h1>
+                    <p>My hobbi is frontend developer. I like job.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </d1iv>
+        </div>
+    </header>
+    <div class="section__one">
+        <div class="container">
+            <div class="section__one__title">
+                Hi! Welcome to Art design
+            </div>
+            <div class="row">
+                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="box">
+                        <img src="images/unsplash_sJr8LDyEf7k.png" alt="">
+                        <div class="box__title">5 August, 2022</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A vero esse odit labore amet.sadsa</p>
+                        <span>Learn more</span>
+                    </div>
+                </div>
+
+                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="box">
+                        <img src="images/unsplash_0aL3qzGKDpY.png" alt="">
+                        <div class="box__title">5 August, 2022</div>
+                        <p>Picasso’s muse as sea creature—will it break $100m at Sotheby's New York sale?</p>
+                        <span>Learn more</span>
+                    </div>
+                </div>
+
+                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="box">
+                        <img src="images/unsplash_ieXZRcAKfmE.png" alt="">
+                        <div class="box__title">5 August, 2022</div>
+                        <p>Venice Biennale 2022: all the national pavilions, artists and curators</p>
+                        <span>Learn more</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script>
+        let navbar = document.querySelector('.nav__links');
+
+        document.querySelector('#menu-btn').onclick = () => {
+            navbar.classList.toggle('active');
+
+        }
+    </script>
+</body>
+
+</html>
